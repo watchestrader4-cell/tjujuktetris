@@ -214,7 +214,7 @@ private fun DrawScope.drawText(
         }
     }
     if (gameStatus == GameStatus.Onboard) {
-        drawText("TETRIS", 80f)
+        drawText("TJUJUK TETRIS", 48f)
     } else if (gameStatus == GameStatus.GameOver) {
         drawText("GAME OVER", 60f)
     }

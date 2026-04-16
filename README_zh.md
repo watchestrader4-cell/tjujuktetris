@@ -1,61 +1,41 @@
-# Compose Tetris
+# Tjujuk Tetris
 
-[English](https://github.com/vitaviva/fragivity/blob/master/README.md) | 中文介绍
+[Privacy Policy](https://watchestrader4-cell.github.io/tjujuktetris/) | 中文说明
 
-![](https://img.shields.io/badge/jetpack_compose-1.0.0_beta02-green.svg)
-![](https://img.shields.io/badge/min_sdk_versioin-21-orange.svg)
+![](https://img.shields.io/badge/min_sdk-21-orange.svg)
+![](https://img.shields.io/badge/target_sdk-35-green.svg)
 
-## :scroll: Description
+## 说明
 
-基于[Jetpack Compose](https://developer.android.com/jetpack/compose)打造的俄罗斯方块游戏。包括AppIcon在内的几乎所有UI元素都由代码实现。
+Tjujuk Tetris 是一款基于 Jetpack Compose 构建的安卓方块益智游戏。
 
-<img src="app/src/main/res/drawable/ic_launcher.png" width=110 align=left hspace="10" vspace="10"  >
+<img src="app/src/main/res/drawable/ic_launcher.png" width=110 align=left hspace="10" vspace="10">
 
+- 支持离线单机游玩
+- 使用柔和红色主题界面
+- 支持声音开关与暂停/继续
+- 已准备好签名发布版本与 Android App Bundle
 
-- 基于MVI架构
-- 模拟液晶显示效果
-- 多种游戏音响
-- 致敬[react-tetris](https://github.com/chvin/react-tetris/blob/master/README-EN.md)
+## 游戏规则
 
-下载最新[APK](https://github.com/vitaviva/compose-tetris/actions)
+- 消除 1 行：100 分
+- 消除 2 行：300 分
+- 消除 3 行：700 分
+- 消除 4 行：1500 分
+- 随着消除行数增加，方块掉落速度会提升
 
-#### 游戏规则：
-- 一次消除1行得100分、2行得300分、3行得700分、4行得1500分；
-- 方块掉落速度会随着消除的行数增加（每20行增加一个级别）；
-
-<br/>
-
-## :nut_and_bolt: MVI Architecture:
+## 架构
 
 <img src="/results/mvi_arch.png">
 
-<br/>
+## 截图
 
-## :camera_flash: Screenshots
 <img src="/results/screenshot.gif" width="480">
 
+## 隐私政策
+
+https://watchestrader4-cell.github.io/tjujuktetris/
 
 ## License
-```
-MIT License
 
-Copyright (c) 2021 fundroid
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+See [LICENSE](LICENSE).

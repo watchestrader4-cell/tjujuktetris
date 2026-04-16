@@ -18,7 +18,7 @@ import com.watchestrader.tetris.ui.GameBody
 import com.watchestrader.tetris.ui.GameScreen
 import com.watchestrader.tetris.ui.PreviewGamescreen
 import com.watchestrader.tetris.ui.combinedClickable
-import com.watchestrader.tetris.ui.theme.ComposetetrisTheme
+import com.watchestrader.tetris.ui.theme.TjujukTetrisTheme
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive
 
@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
         SoundUtil.init(this)
 
         setContent {
-            ComposetetrisTheme {
+            TjujukTetrisTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
 
@@ -103,7 +103,7 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    ComposetetrisTheme {
+    TjujukTetrisTheme {
         GameBody {
             PreviewGamescreen(Modifier.fillMaxSize())
         }
